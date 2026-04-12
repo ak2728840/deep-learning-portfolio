@@ -1,0 +1,44 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data (avoid uploading large datasets)
+data/
+*.csv
+*.zip
+*.tar.gz
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# PyTorch / training artifacts
+*.pt
+*.pth
+
+# Build / packaging
+dist/
+build/
+*.egg-info/
+
+# Environment variables
+.env
+
+# Misc
+*.swp
